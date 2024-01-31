@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+p{
+    color:#63646c
+}
+h1{
+    font-size: 40px;
+}
+
+.header-bwt li a{
+    font-weight: 500;
+    text-decoration: none;
+    color:#63646c;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-bwt{
+    display: flex;
+    gap:25px;
+}
+.button{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    color:rgb(53, 219, 219);
+    border-color:rgb(53, 219, 219);
+    transition: background-color 0.5s;
+}
+.logo1 img{
+    width:25px;
+    height: auto;
+    display: block; 
+}
+.logo2 img{
+    width:90px;
+    height: auto;
+    display: block; 
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.navbar{
+    height: 556px ;
+    width:100%;
+    background: url(https://intoroigiare.vn/wp-content/uploads/2023/11/background-trang-sang-trong.jpg);
+    background-size: contain;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-repeat: no-repeat;
+
+}
+.text{
+    text-align: left;
+    padding:20px;
+    margin-left: 300px;
+}
+.addimg{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 320px;
+}
+.addimg img {
+    width: 420px;
+    height: 556px;
+
+}
+.Pythontext{
+    text-decoration: underline rgb(231, 157, 59); 
+}
+.DowloadCV{
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #4dcee5; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.5s;
+}
+.DowloadCV:hover {
+    background-color: #e5ff3f; 
+}
+.button:hover {
+    background-color: #e5ff3f;
+    color: white; 
+}
+/* 1.2  */
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: 20px;
+  }
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+.card {
+    display: flex;
+    width: 200px;
+    border: 0px outset #ccc;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+.card:hover{
+    background-color: rgb(201, 200, 200);
+    cursor: pointer;
+  }
+
+  
+.card div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card div span:first-child{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.card div span:last-child{
+    color: #000000;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(207, 207, 207);
+    justify-content: center;
+    align-items: center ;
+    gap: 200px;
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-white-background-golden-swirl-liquids-abstract-graffiti-art-background-featuring-gold-splatters-created-297016053.jpg );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+.container7 ul {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+.cv{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.cv1{
+    display: flex;
+    flex-direction:inherit;
+    width: 250px;
+    height: 85px;
+    border: 1px solid rgb(154, 154, 154);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.cv1 img{
+    width: 40px;
+    height: 40px;
+}
+.form {
+    width: 100%;
+    height: 600px;
+    background-image: url(data:image/jpeg;base64,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);
+   
+}
+.form1{ 
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    color: black ;
+}
+.form2 input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid gray;
+}
+.anh img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.left1 {
+    width: 40%;
+  }
+.right1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.right1 p{
+  color: gray;
+}
+.column {
+  width: 30%;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.c3{
+    display: flex;
+    flex-direction: column; 
+}
+/* 1.5 */
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	background-color: rgb(13, 13, 53);
+    margin-top: 40px;
+    gap: 130px;
+}
+
+.comn {
+	flex: 1;
+	margin-right: 20px;
+    list-style: none;
+}
+
+.comn h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.comn h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: azure;
+}
+.comn li {
+    margin-bottom: 15px;
+    color: grey;
+}
+.h ul li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: inline; 
+    margin-left: 7px;
+}
+
+.h ul p {
+    margin-left: 40px;
+    color: grey;
+    display: flex;
+}
+.h{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(13, 13, 53);
+}
+
+.comn {
+    flex: 1;
+}
+h2 img{
+    width:25px;
+    height: auto;
+    display: block; 
+}
+h2{
+    display:flex;
+    align-items: center;
+}
